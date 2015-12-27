@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff0033cc"
+    android:padding="4px">
+
+    <TextView
+        android:id="@+id/labelUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="-1px"
+        android:background="#ffff0066"
+        android:text="User Name"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/ediName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="38px"
+        android:textSize="18sp"></EditText>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="125px"
+        android:layout_height="wrap_content"
+        android:layout_x="76px"
+        android:layout_y="98px"
+        android:text="Go"
+        android:textStyle="bold"></Button>
+</AbsoluteLayout>
